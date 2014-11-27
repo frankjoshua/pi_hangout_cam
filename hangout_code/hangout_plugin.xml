@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <Module>
+    <ModulePrefs title="Etherpad Extension Example">
+      <Require feature="rpc" />
+    </ModulePrefs>
+       <Content type="html"><![CDATA[
+        <html>
+          <body>
+             <script src="https://hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.0" ></script>
+		<iframe src="http://tesseract-aws.ddns.net:7070/" width="100%" height="100%" scrolling=no frameborder=0></iframe>             </body>
+         </html>
+      ]]>
+      </Content>
+  </Module>
