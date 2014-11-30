@@ -10,7 +10,7 @@ import time
 
 import serial
 import threading
-arduino = serial.Serial('/dev/ttyACM1', 115200)
+arduino = serial.Serial('/dev/ttyACM0', 115200)
 print("Connecting to Arduino")
 time.sleep(0)
 ##while 1:
